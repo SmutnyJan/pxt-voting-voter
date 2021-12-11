@@ -1,11 +1,10 @@
 input.onButtonPressed(Button.A, function () {
-    radio.sendString("YES")
+    radio.sendValue("YES", control.deviceSerialNumber())
 })
 input.onButtonPressed(Button.B, function () {
-    radio.sendString("NO")
+    radio.sendValue("NO", control.deviceSerialNumber())
 })
 radio.setGroup(1)
-let canVote = true
 basic.forever(function () {
 	
 })
