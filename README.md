@@ -29,3 +29,17 @@ Tento obrázek se může aktualizovat až za několik minut.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+## Popis projektu
+
+Tento projekt slouží jako „hlasovač“ v úloze Hlasování. Projekt je určen k nahrání na libovolný počet microbitů, které poté budou odesílat data na jeden microbit (projekt collector: https://github.com/SmutnyJan/pxt-voting-collector). Samotné hlasování probíhá pouhým mačkáním příslušných periferií (viz ovládání). Interpretace hodnot probíhá až v collectoru.
+
+## Ovládání
+
+* tlačítko A: odešle hodnotu A
+* tlačítko B: odešle hodnotu B
+* tlačítko A+B: odešle hodnotu C
+* logo: odešle hodnotu D
+
+
+
